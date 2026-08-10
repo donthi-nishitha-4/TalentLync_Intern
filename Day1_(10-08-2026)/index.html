@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>YouTube Home Page</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color:rgb(148, 195, 197);
+            }
+
+            .thumbnail-container {
+                display: flex;
+                gap: 20px;
+            }
+
+            .thumbnail-container img {
+                width: 200px;
+                height: 120px;
+                object-fit: cover;
+                border: 2px solid black;  
+            }
+
+            img{
+                display: block;
+                margin: 0 auto;
+                padding:10px;
+            }
+
+            a{
+                text-decoration: underline;
+                color:blueviolet;
+                padding: 10px;
+                margin: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>YouTube</h1>
+            <nav><a href="#explore">Explore</a><a href="#trending">Trending</a><a href="#comedy">Comedy</a><a href="#watched">Watched</a><a href="#newtoyou">New to you</a></nav>
+        </header>
+        <main>
+        <div>
+            <div class="thumbnail-container">
+                <a href="#thumbnail1"><img src="images/Thumbnail1.png" alt="Thumbnail 1"></a>
+                <a href="#thumbnail2"><img src="images/Thumbnail2.png" alt="Thumbnail 2"></a>
+                <a href="#thumbnail3"><img src="images/Thumbnail3.png" alt="Thumbnail 3"></a>
+            </div>
+            <br><br>
+            <div class="thumbnail-container">
+                <a href="#thumbnail4"><img src="images/Thumbnail4.png" alt="Thumbnail 4"></a>
+                <a href="#thumbnail5"><img src="images/Thumbnail5.png" alt="Thumbnail 5"></a>
+            </div>
+            <div id = "explore">
+                <h2>Explore</h2>
+                <p>Customize your feed and discover new content accordingly</p>
+            </div>
+            <div id = "trending">
+                <h2>Trending</h2>
+                <p>See what's viral on the Internet Today</p>
+                <ul>
+                    <li>Trending Video #1</li>
+                    <li>Trending Video #2</li>
+                    <li>Trending Video #3</li>
+                </ul>
+            </div>
+            <div id = "comedy">
+                <h2>Comedy</h2>
+                <p>Recommended videos from Watched History</p>
+            </div>
+            <div id = "watched">
+                <h2>Watched</h2>
+                <p>Rewatch the videos you often see</p>
+            </div>
+            <div id = "newtoyou">
+                <h2>New to you</h2>
+                <p>Discover new content you may be interested in</p>
+            </div>
+            </div></main>
+            <footer>
+                <p>&copy; 2026 YouTube. All rights reserved.</p>
+                <nav><a href="#home">Home</a><a href="#shorts">Shorts</a><a href="#create">Create</a><a href="#subscriptions">Subscriptions</a><a href="#library">Library</a></nav>
+            </footer>
+            <div id = "home">
+                <h2>Home</h2>
+                <p>Customize your feed and discover new content accordingly</p>
+            </div>
+            <div id = "shorts">
+                <h2>Shorts</h2>
+                <p>Watch short videos on various topics</p>
+                <ul>
+                    <li>Trending Shorts #1</li>
+                    <li>Trending Shorts #2</li>
+                    <li>Trending Shorts #3</li>
+                </ul>
+            </div>
+            <div id = "create">
+                <h2>Create</h2>
+                <p>Create and upload your own videos</p>
+            </div>
+            <div id = "subscriptions">
+                <h2>Subscriptions</h2>
+                <p>Watch videos from channels you follow</p>
+            </div>
+            <div id = "library">
+                <h2>Library</h2>
+                <p>Access your uploaded videos and watch history</p>
+            </div>
+        </div>
+    </body>
+</html>
