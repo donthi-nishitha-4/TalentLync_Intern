@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content ="width=device-width,initial-scale=1.0">
+        <title>Register</title>
+    </head>
+    <body>
+        <h1> Welcome to YouTube</h1>
+        <h2> Please Register Here</h2>
+        <form action="#" method="post">
+            <label>Name:</label>
+            <input id="name" type="text" placeholder="Name" required>
+            <br/><br/>
+            <label>Email:</label>
+            <input id="email" type="email" placeholder="Email" required>
+            <br/><br/>
+            <label>Contact:</label>
+            <input id="contact" type="text" min_length="10" placeholder="Contact" required>
+            <br/><br/>
+            <label>Username:</label>
+            <input id="username" type="text" placeholder="Username" required>
+            <br/><br/>
+            <label>Password:</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <br/><br/>
+            <label>Confirm Password:</label>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <br/><br/>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label>Female</label>
+            <br/><br/>
+            <input type="checkbox" id="rememberMe">
+            <label for="rememberMe">Remember Me</label>
+            <br/><br/>
+            <input type="submit" value="Register">
+            <p>Already have an account? <a href="login.html">Login Here</a></p>
+        </form>
+    </body>
+</html>

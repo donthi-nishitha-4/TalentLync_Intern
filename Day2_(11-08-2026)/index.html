@@ -1,0 +1,57 @@
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube Home</title>
+    </head>
+    <body>
+        <header>
+            <div><h1>YouTube</h1><input type="search" id="search"placeholder="Search"><p></p><p>🔔</p><p>Create</p><a href="profile.html">Profile</a></div>
+        </header>
+        <main>
+            <div><h2>Sample Video Title</h2></div>
+            <div>
+                <video width="580px" height="300px" controls>
+                    <source src ="videos/SampleVideo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div><p>Like</p><p>Share</p><p>Comment</p><p></p>Subscribe 🔔</p><p></p><p></p><p>Save</p><p>Download</p></div>
+        </main>
+       <div>
+        <h3>Comments</h3>
+        <div>
+            <input type="select" id="sortComments">
+            <label>Sort by:</label>
+            <select>
+                <option value="latest">Latest</option>
+                <option value="oldest">Oldest</option>
+                <option value ="mostpopular">Most Popular</option>
+            </select>
+            <div>
+                <input type = "textarea" id="newcomment" placeholder="Share your thoughts">
+                <button type="submit">Submit</button>
+            </div>
+            <div>
+                <p>@youtubeuser1</p>
+                <p>First Comment</p>
+                <p>Like</p> <p>63 Replies</p> <p>Reply</p>
+            </div>
+            <div>
+                <p>@youtubeuser2</p>
+                <p>Please pin this Comment</p>
+                <p>Like</p> <p>2 Replies</p> <p>Reply</p>
+            </div>
+        </div>
+        <sidebar>
+            <h3>Recommendations for you</h3>
+            <div>
+                <a href="images/Thumbnail1.png" target="_blank"><img src="images/Thumbnail1.png" alt="Thumbnail 1"></a>
+                <a href="images/Thumbnail2.png" target="_blank"><img src="images/Thumbnail2.png" alt="Thumbnail 2"></a>
+                <a href="images/Thumbnail3.png" target="_blank"><img src="images/Thumbnail3.png" alt="Thumbnail 3"></a>
+            </div>
+        </sidebar>
+        <footer>
+            <p>&copy; 2026 YouTube Inc. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
