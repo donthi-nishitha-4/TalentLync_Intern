@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content ="width=device-width,intitial-scale=1.0">
+        <title>Forms_Tables_Lists</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:azure;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Forms, Tables, and Lists</h1>
+        <table style="border: 1px solid black;">
+            <thead style="border: 1px solid black;color:brown">
+                <tr>
+                    <th>S.No.</th>
+                    <th>Element</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody style="border: 1px solid black;">
+                <tr>
+                    <td>1</td>
+                    <td>Forms</td>
+                    <td>Forms are a way to gather/collect information through input from users.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tables</td>
+                    <td>Tables are used to store large amounts of related data together to access easily.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Lists</td>
+                    <td>Lists are used to display category of information in ordered or unordered ways.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2> Types of Lists</h2>
+            <ul>
+                <li>Ordered Lists</li>
+                <li>Unordered Lists</li>
+                <li>Definition Lists</li>
+            </ul>
+            <ol>
+                <li>Ordered Way of organizing information</li>
+                <li>Unordered Way of organizing information</li>
+                <li>Definition included information</li>
+            </ol>
+            <dl>
+                <dt>Definition List</dt>
+                <dt>Definition Term</dt>
+                <dd>Definition Description</dd>
+            </dl>
+            <h2> For more such informative content Subscribe to us by filling this form.</h2>
+            <form id="subscription-form" action="https://platinitee.com/talentlync/form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="checkbox" id="chckbox" name="chckbox" placeholder="I agree to recieve offers and updates through mails." required>
+                <p>I agree to recieve offers and updates through mails.</p><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+</html>
