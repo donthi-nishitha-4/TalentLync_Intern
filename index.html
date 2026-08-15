@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Home</title>
+</head>
+
+<body>
+    <header style="display:flex; align-items: center;justify-content:flex-start; gap: 50px; padding: 10px;">
+            <img src="images/yt_logo.png" alt="YouTube Logo" width="100px" height="50px">
+            <h1>YouTube</h1>
+            <input type="search" placeholder="Search">
+            <p>🔍</p>
+            <p>🔔</p>
+            <p></p><p></p><p></p><p></p>
+            <div style="display:flex; align-items: center;justify-content:flex; gap: 15px; border: 1px solid black;">
+            <p>➕</p>
+            <p>Create</p>
+            </div>
+            <p>👤</p>
+    </header>
+    <main>
+        <div>
+            <h2>Sample Video Title</h2>
+        </div>
+        <div style="display: flex; gap: 20px; align-items: center; justify-content:space-around;">
+            <video width="580px" height="300px" controls>
+                <source src="videos/SampleVideo.mp4" type="video/mp4">
+            </video>
+            <div>
+                <img src="images/ad.png" alt="Advertisement" width="480px" height="200px">
+                <p style="text-align: center;">Advertisement: ©️Google Gemini - Sponsored  <a href = "www.google.gemini.com">Visit Website</a> </p>
+            </div>
+        </div>
+        <div style="width: 580px; display: flex; align-items: center; justify-content:space-around; padding : 2px;">
+            <p>👍🏻Like</p>
+            <p>↗️Share</p>
+            <p>💬Comment</p>
+            <p>🔔Subscribe</p>
+            <p>💾Save</p>
+            <p>📥Download</p>
+        </div>
+    </main>
+    <h3>Comments</h3>
+    <section style="display: flex; gap: 20px;">
+    <div style="display: flex ;padding : 20px; ">
+        <div>
+            <!-- <input type="select" id="sortComments"> -->
+            <label>Sort by:</label>
+            <select>
+                <option value="latest">Latest</option>
+                <option value="oldest">Oldest</option>
+                <option value="mostpopular">Most Popular</option>
+            </select>
+            <br><br>
+            <div>
+                <input type="textarea" id="newcomment" placeholder="Share your thoughts">
+                <button type="submit">Submit</button>
+            </div>
+            <div style="border: 2px solid black; width:580px; padding: 10px; margin-top: 10px;">
+                <p>@youtubeuser1</p>
+                <hr>
+                <p>First Comment</p>
+                <div style="display:flex; align-items: center; justify-content:space-around; padding : 2px;">
+                <p>👍🏻Like</p>
+                <p>63 Replies⤵️</p>
+                <p>↩️Reply</p>
+                </div>
+            </div>
+            <div style="border: 2px solid black; width:580px; padding: 10px; margin-top: 10px;">
+                <p>@youtubeuser2</p>
+                <hr>
+                <p>Please pin this Comment</p>
+                <div style="display:flex; align-items: center; justify-content:space-around; padding : 2px;">
+                    <p>👍🏻Like</p>
+                    <p>2 Replies⤵️</p>
+                    <p>↩️Reply</p>
+                </div>
+            </div>
+        </div>
+        <iframe width="500px" height="auto" src="recommend.html" title="Recommendations" frameborder="0" allow="accelerometer;" loading="lazy"></iframe>
+    </section>
+        <footer style="text-align: center; padding: 20px;">
+            <p>&copy; 2026 YouTube Inc. All rights reserved.</p>
+        </footer>
+</body>
+
+</html>

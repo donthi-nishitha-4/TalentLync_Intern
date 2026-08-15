@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube Login</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                padding: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to YouTube</h1>
+        <img src = "images/yt_logo.png" width="auto" height = "300px" alt = YT Logo>
+        <div style = "width:auto; align-items:center; margin:auto">
+        <h2>Please Login to Your Account</h2>
+        <form action="index.html" method="post">
+            <label>Username:</label>
+            <input id="username" type="text" placeholder="Username" required>
+            <br/><br/>
+            <label>Password:</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <br/><br/>
+            <input type="checkbox" id="rememberMe">
+            <label for="rememberMe">Remember Me</label>
+            <br/><br/>
+            <input type="submit" value="Login">
+            <p>Forgot your password? <a href="verification.html">Set new password</a></p>
+            <a href="index.html">Go to YouTube</a>
+            <a href="https://www.youtubemusic.com">Go to YT Music</a>
+            <p>Don't have an account? <a href="register.html">Register Now</a></p>
+        </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent Training</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4cd;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .frames-container {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .frame-box {
+            flex: 1;
+        }
+
+        .frame-box h2 {
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning: iframes</h1>
+    <div class="frames-container">
+        <!-- FRAME 1: HTML PAGE -->
+        <div class="frame-box">
+            <h2>Lesson</h2>
+            <iframe src="../Day3_(12-02-2026)/index.html" title="Lesson HTML Page">
+            </iframe>
+        </div>
+
+        <!-- FRAME 2: IMAGE -->
+        <div class="frame-box">
+            <h2>Visual Explanation</h2>
+            <iframe src="https://excalidraw.com/#json=WDD46xaCf-x8xrvBK2D0v,URAxKrjfAJYAtriKVBqXxA" title="Teaching Image">
+            </iframe>
+        </div>
+
+        <!-- FRAME 3: VIDEO -->
+        <div class="frame-box">
+            <h2>Recommended Video</h2>
+            <video controls width="100%" height="300">
+                <source src="../videos/SampleVideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
