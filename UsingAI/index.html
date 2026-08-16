@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Home</title>
+    <link rel="stylesheet" href="../UsingAI/style.css">
+</head>
+
+<body>
+    <header class="youtube-header">
+        <div class="logo-section">
+            <img src="../images/yt_logo.png" alt="YouTube Logo">
+            <h1>YouTube</h1>
+        </div>
+        <div class="search-section">
+            <input type="search" placeholder="Search" aria-label="Search">
+            <button type="button">🔍</button>
+        </div>
+        <div class="header-actions">
+            <span title="Notifications">🔔</span>
+            <button type="button">➕ Create</button>
+            <span title="Profile">👤</span>
+        </div>
+    </header>
+    <main class="page-layout">
+        <section class="main-content">
+            <h2>Sample Video Title</h2>
+            <video class="main-video" controls>
+                <source src="../videos/SampleVideo.mp4" type="video/mp4">Your browser does not support the video
+                element.
+            </video>
+            <div class="video-information">
+                <h2>Sample Video Title</h2>
+                <p>This is a sample YouTube video description.
+                    You can replace this text with your own content.</p>
+            </div>
+            <div class="advertisement">
+                <img src="../images/ad.png" alt="Advertisement">
+                <p>
+                    Advertisement: © Google Gemini - Sponsored
+                    <a href="https://gemini.google.com/" target="_blank">Visit Website</a>
+                </p>
+            </div>
+            <div class="video-actions">
+                <button type="button">👍 Like</button>
+                <button type="button">↗ Share</button>
+                <button type="button">💬 Comment</button>
+                <button type="button">🔔 Subscribe</button>
+                <button type="button">💾 Save</button>
+                <button type="button">📥 Download</button>
+            </div>
+            <section class="comments">
+                <h2>Comments</h2>
+                <div class="comment-controls">
+                    <label for="sortComments">Sort by:</label>
+                    <select id="sortComments">
+                        <option value="latest">Latest</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="mostpopular">Most Popular</option>
+                    </select>
+                </div>
+                <div class="new-comment">
+                    <label for="newcomment">Add a comment:</label>
+                    <textarea id="newcomment" name="comment" placeholder="Share your thoughts"></textarea>
+                    <button type="button">Submit</button>
+                </div>
+                <article class="comment">
+                    <strong>@youtubeuser1</strong>
+                    <hr>
+                    <p>First Comment</p>
+                    <div class="comment-actions">
+                        <button type="button">👍 Like</button>
+                        <button type="button">63 Replies</button>
+                        <button type="button">↩ Reply</button>
+                    </div>
+                </article>
+                <article class="comment">
+                    <strong>@youtubeuser2</strong>
+                    <hr>
+                    <p>Please pin this Comment</p>
+                    <div class="comment-actions">
+                        <button type="button">👍 Like</button>
+                        <button type="button">2 Replies</button>
+                        <button type="button">↩ Reply</button>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <aside class="recommendation-section">
+            <h2>Recommended</h2>
+            <iframe src="../UsingAI/recommend.html" title="Recommended Videos" loading="lazy"></iframe>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2026 YouTube Inc. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
